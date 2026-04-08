@@ -1,0 +1,108 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[a4paper,margin=0.6in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+
+%------------------------------------------------------------
+% Section formatting
+%------------------------------------------------------------
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
+%------------------------------------------------------------
+% Layout tweaks
+%------------------------------------------------------------
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{itemsep=2pt, topsep=2pt, leftmargin=*}
+
+\begin{document}
+
+%------------------------------------------------------------
+% Header
+%------------------------------------------------------------
+\begin{center}
+    {\Huge \scshape Het Bhalani} \\[4pt]
+    Rajkot, Gujarat, India \\[2pt]
+    \small
+    \href{tel:+918469015568}{+91 84690 15568} ~|~
+    \href{mailto:bhalanihet2006@gmail.com}{bhalanihet2006@gmail.com} ~|~
+    \href{https://linkedin.com/in/hetbhalani/}{LinkedIn} ~|~
+    \href{https://github.com/hetbhalani}{GitHub} ~|~
+    \href{https://huggingface.co/hetbhalani}{HuggingFace}
+\end{center}
+
+\vspace{-4pt}
+
+%------------------------------------------------------------
+% Professional Summary
+%------------------------------------------------------------
+\section*{Professional Summary}
+AI Engineer specializing in \textbf{Generative AI, Large Language Models (LLMs), and Retrieval-Augmented Generation (RAG)}. Experienced in building \textbf{AI systems, REST APIs, and agentic workflows} using LangChain, LangGraph, and FastAPI. Skilled in \textbf{LLM fine-tuning (QLoRA), deploying end-to-end ML pipelines, and inference}. Strong foundation in machine learning, deep learning, and transformer architectures with hands-on experience delivering production-ready AI applications that solve real-world problems.
+
+%------------------------------------------------------------
+% Technical Skills
+%------------------------------------------------------------
+\section*{Technical Skills}
+\begin{itemize}
+    \item \textbf{Languages:} Python, Java, JavaScript, SQL, C
+    \item \textbf{ML / DL Frameworks:} PyTorch, TensorFlow, Scikit-learn, Hugging Face Transformers
+    \item \textbf{GenAI / LLM:} LangChain, LangGraph, Groq API, LLM Fine-tuning (QLoRA / GGUF), RAG Systems
+    \item \textbf{Web, Cloud \& DevOps:} FastAPI, Next.js, PostgreSQL, FAISS, Pinecone, Docker, Git, Linux
+\end{itemize}
+
+%------------------------------------------------------------
+% Projects
+%------------------------------------------------------------
+\section*{Projects}
+
+\textbf{\href{https://github.com/hetbhalani/HetGPT}{HetGPT -- Full-Stack AI Assistant}} \hfill \textit{Dec 2025 -- Feb 2026} \\
+\textit{Python, FastAPI, Next.js, LangChain, QLoRA, GGUF, FAISS, Pinecone}
+\begin{itemize}[leftmargin=2em]   % <-- ADD THIS
+    \item Built a full-stack AI assistant with a \textbf{dual memory system} (short-term context + long-term summarization), \textbf{document RAG} (PDF upload, FAISS/Pinecone retrieval), and \textbf{tool integrations} for web search, weather, and news.
+    \item Fine-tuned \textbf{Qwen3-8B using QLoRA}, quantized to \textbf{Q4\_K\_M GGUF}, and deployed as a live REST API on Hugging Face Spaces via a \textbf{llama.cpp Docker backend}; implemented JWT auth and device-level rate limiting.
+\end{itemize}
+
+\textbf{\href{https://github.com/hetbhalani/Lexi}{Lexi -- AI Writing Assistant (Chrome Extension)}} \hfill \textit{Feb 2026 -- Mar 2026} \\
+\textit{Python, FastAPI, LangGraph, Groq, Chrome Extension (MV3)}
+\begin{itemize}[leftmargin=2em] 
+    \item Built a Chrome extension with a \textbf{LangGraph orchestrated FastAPI backend} supporting grammar correction, summarization, explanation, enhancement, tone control (4 tones), and a session-based \textbf{iterative rewrite system} (up to 3 rewrites).
+    \item Implemented \textbf{multi-language translation across 15+ languages} using MyMemory API; engineered a \textbf{Promptify feature}.
+\end{itemize}
+
+\textbf{\href{https://github.com/hetbhalani/Cine_Sense}{CineSense -- Movie Review Sentiment Analyzer}} \hfill \textit{Sep 2025} \\
+\textit{Python, FastAPI, Streamlit, Hugging Face Transformers, Selenium, BeautifulSoup}
+\begin{itemize}[leftmargin=2em] 
+    \item Fine-tuned \textbf{RoBERTa-base} on IMDb reviews and served inference via a \textbf{FastAPI backend}; built an \textbf{IMDb review scraper} using Selenium and BeautifulSoup for end-to-end pipeline automation.
+    \item Deployed a \textbf{Streamlit app} with Plotly visualizations (sentiment distribution, star ratings, review trends); hosted live on \textbf{Hugging Face Spaces}.
+\end{itemize}
+
+%------------------------------------------------------------
+% Experience
+%------------------------------------------------------------
+\section*{Experience}
+\textbf{Teaching Assistant -- Data Structures \& Algorithms} \hfill \textit{Dec 2024 -- May 2025} \\
+Darshan University, Rajkot, Gujarat
+\begin{itemize}[leftmargin=2em] 
+    \item Mentored junior students in \textbf{Data Structures, Algorithms, and Logic Development} through hands-on lab sessions and one-on-one doubt resolution.
+\end{itemize}
+
+%------------------------------------------------------------
+% Education
+%------------------------------------------------------------
+\section*{Education}
+\textbf{B.Tech in Computer Science and Engineering} \hfill \textit{Expected May 2027} \\
+Darshan University, Rajkot, Gujarat \hfill \textbf{CGPA: 8.97 / 10.0}
+
+%------------------------------------------------------------
+% Achievements & Additional Information
+%------------------------------------------------------------
+\section*{Achievements \& Additional Information}
+\begin{itemize}
+   \item My \textbf{\href{https://github.com/hetbhalani/Neural_Network_from_Scratch}{Neural Network from Scratch}} repository on GitHub gained \textbf{37 stars and 8 forks}.
+    \item Led a team of 6 in a 24-hour hackathon (Code Arena), developing an \textbf{ML-powered finance optimizer} for spending analysis and personalized financial recommendations -- under strict time constraints.
+\end{itemize}
+
+\end{document}
