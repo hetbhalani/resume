@@ -33,7 +33,7 @@
 % Summary
 %------------------------------------------------------------
 \section*{Summary}
-AI Engineer specializing in \textbf{Generative AI, LLMs, and Agentic Workflows}, with a strong foundation in \textbf{machine learning, deep learning, and transformer architectures}. Experienced in building \textbf{agentic workflows, REST APIs, and LLM-powered systems} using LangChain, LangGraph, and FastAPI, with hands-on expertise in \textbf{fine-tuning open-source models (QLoRA/GGUF) and end-to-end cloud-native deployment}.
+AI Engineer specializing in \textbf{Generative AI, LLMs, and Agentic Workflows}, with a strong foundation in \textbf{machine learning, deep learning, LLMs and FineTuning}. Experienced in building \textbf{agentic workflows, REST APIs, and LLM-powered systems} using LangChain, LangGraph, and FastAPI, with hands-on expertise in \textbf{fine-tuning open-source models (QLoRA) and end-to-end cloud-native deployment}.
 
 %------------------------------------------------------------
 % Technical Skills
@@ -42,7 +42,7 @@ AI Engineer specializing in \textbf{Generative AI, LLMs, and Agentic Workflows},
 \begin{itemize}
     \item \textbf{Programming Languages:} Python, JavaScript, Java, SQL, C
     \item \textbf{AI / ML / DL:} PyTorch, TensorFlow, Scikit-learn, Hugging Face Transformers, LLM Fine-tuning (QLoRA, GGUF), Model Quantization, Transfer Learning
-    \item \textbf{Generative AI / LLM:} LangChain, LangGraph, Groq API, RAG, Prompt Engineering, Agentic Workflows, FAISS, Pinecone, LangSmith, LangFuse
+    \item \textbf{Generative AI / LLM:} LangChain, LangGraph, LLM API, RAG, Prompt Engineering, Agentic Workflows, FAISS, Pinecone, LangSmith, LangFuse
     \item \textbf{MLOps / Cloud / Web:} Docker, CI/CD, Apache Airflow, AWS (EC2, S3, IAM), Redis, FastAPI, Next.js, REST API, Git, Linux
 \end{itemize}
 
@@ -51,25 +51,25 @@ AI Engineer specializing in \textbf{Generative AI, LLMs, and Agentic Workflows},
 %------------------------------------------------------------
 \section*{Projects}
 
-\textbf{\href{https://github.com/hetbhalani/HetGPT}{HetGPT - Full-Stack AI Assistant}} \hfill \textit{Dec 2025 - Feb 2026} \\
+\textbf{HetGPT - Full-Stack AI Assistant} | \href{https://github.com/hetbhalani/HetGPT}{Link} \hfill \textit{Dec 2025 - Feb 2026} \\
 \textit{Python, FastAPI, LangChain, QLoRA, GGUF, FAISS, Pinecone, Docker, Next.js}
 \begin{itemize}[leftmargin=2em]
     \item Developed a generative AI assistant with a \textbf{dual memory architecture} (short-term context + long-term summarization), \textbf{document RAG} (FAISS/Pinecone vector search), and \textbf{tool-use integrations} for real-time web search and weather.
     \item Fine-tuned \textbf{Qwen3-8B via QLoRA}, quantized to \textbf{Q4\_K\_M GGUF}, and deployed as a \textbf{REST API on Hugging Face Spaces}, achieving \textbf{fast inference speeds} via a llama.cpp Docker backend; secured with \textbf{JWT authentication} and device-level rate limiting.
 \end{itemize}
 
-\textbf{\href{https://github.com/hetbhalani/BuzzBot}{BuzzBot - Production-Grade AI Content Pipeline}} \hfill \textit{Apr 2026 - May 2026} \\
+\textbf{BuzzBot - Production-Grade AI Content Pipeline} | \href{https://github.com/hetbhalani/BuzzBot}{Link} \hfill \textit{Apr 2026 - May 2026} \\
 \textit{Python, LangGraph, Apache Airflow, Docker, AWS (EC2, S3, IAM), Tavily, Groq, Redis, LangSmith, LangFuse}
 \begin{itemize}[leftmargin=2em]
-    \item Built an autonomous agentic pipeline using \textbf{LangGraph} and \textbf{Apache Airflow} that fetches, deduplicates, and reranks \textbf{100+ daily news articles}, persisting structured data securely into \textbf{AWS S3} using scoped IAM roles.
-    \item Designed a \textbf{non-blocking Human-in-the-Loop (HITL)} workflow with a \textbf{Telegram Bot} and \textbf{Redis checkpointing}, suspending processes via \texttt{interrupt()} for manual review before auto-publishing to LinkedIn, saving \textbf{5+ hours per week} of manual curation.
+    \item Built an autonomous agentic pipeline using \textbf{LangGraph} and \textbf{Apache Airflow} that fetches, deduplicates, and reranks \textbf{10+ daily news articles}, persisting structured data securely into \textbf{AWS S3} using scoped IAM roles.
+    \item Designed a \textbf{non-blocking Human-in-the-Loop (HITL)} workflow with a \textbf{Telegram Bot} and \textbf{Redis checkpointing}, suspending processes via \texttt{interrupt()} for manual review before auto-publishing to LinkedIn, saving \textbf{hours of time} of manual curation.
     \item Deployed the multi-container architecture on \textbf{AWS EC2} via \textbf{Docker} and \textbf{GitHub Actions CI/CD}, integrating \textbf{MLflow/LangFuse} to systematically version prompts and track generation quality metrics.
 \end{itemize}
 
-\textbf{\href{https://github.com/hetbhalani/Lexi}{Lexi - AI Writing Assistant (Chrome Extension)}} \hfill \textit{Feb 2026 - Mar 2026} \\
+\textbf{Lexi - AI Writing Assistant (Chrome Extension)} | \href{https://github.com/hetbhalani/Lexi}{Link} \hfill \textit{Feb 2026 - Mar 2026} \\
 \textit{Python, FastAPI, LangGraph, Groq API, Chrome Extension MV3, MyMemory API}
 \begin{itemize}[leftmargin=2em]
-    \item Developed a \textbf{Chrome Extension (MV3)} with a \textbf{LangGraph-orchestrated FastAPI backend} supporting grammar correction, summarization, tone control, and a session-based \textbf{iterative rewrite workflow} (up to 3 rewrites) serving dynamic web users.
+    \item Developed a \textbf{Chrome Extension)} with a \textbf{LangGraph-orchestrated FastAPI backend} supporting grammar correction, summarization, tone control, and a session-based \textbf{iterative rewrite workflow} (up to 3 rewrites) serving dynamic web users.
     \item Engineered \textbf{multilingual translation capabilities across 15+ languages} with automatic language detection and a \textbf{Promptify feature} to convert raw user intents into structured, high-yield LLM prompts.
 \end{itemize}
 
@@ -90,7 +90,7 @@ Darshan University, Rajkot, Gujarat
 \section*{Education}
 
 \textbf{Bachelor of Technology (B.Tech) - Computer Science and Engineering} \hfill \textit{Expected May 2027} \\
-Darshan University, Rajkot, Gujarat \hfill \textbf{CGPA: 8.97 / 10.0}
+Darshan University, Rajkot, Gujarat \hfill \textbf{CGPA: 8.91 / 10.0}
 
 %------------------------------------------------------------
 % Achievements
